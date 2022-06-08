@@ -122,7 +122,7 @@ class Form extends React.Component {
             </select>
           </label>
           <br />
-          {/* Requisito 7 - Abaixo uma Condicional Ternária para criar validação Super Trunfo */}
+          {/*Abaixo uma Condicional Ternária para criar validação Super Trunfo */}
           {
             !hasTrunfo ? (
               <label className="trump-check" htmlFor="trunfo-input">
@@ -134,7 +134,7 @@ class Form extends React.Component {
                   checked={ cardTrunfo }
                   onChange={ onInputChange }
                 />
-                Super Trybe Trunfo
+                Super Trunfo
               </label>
             )
               : <p>Você já tem um Super Trunfo em seu baralho</p>

@@ -161,6 +161,7 @@ class App extends React.Component {
           </section>
 
           <section className="card-container">
+            <h3>Pré Visualização</h3>
             <Card { ...this.state } />
           </section>
         </div>
