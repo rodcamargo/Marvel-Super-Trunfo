@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Fresca&display=swap') ;
+
+body {
+  background: url('/images/wallpaper.jpg');
+  background-size: cover;
+  color: white;
+  font-family: Verdana , Geneva , Tahoma , sans-serif;
+  font-size: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-align: left;
+}
+
+.title-page {
+  text-align: center;
+}
+/* .subtitle-page {
+  text-align: center;
+  font-family: Bungee , sans-serif;
+  font-size: 2em;
+}
+
+h1 {
+  font-family: Bungee , sans-serif;
+  letter-spacing: 0.06em;
+  font-size: 3em;
+} */
+
+h4 {
+  font-size: 0.6em;
+}
+
+.header-page {
+  align-items: center;
+  margin-top: 2.2em;
+  margin-bottom: 1.2em;
+  margin-left: 3em;
+  display: flex;
+  justify-content: center;
+}
+.app-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-container {
+  background-color: rgba(255, 255, 255, 0.137);
+  border-radius: 0.8em;
+  height: 770px;
+  width: 370px;
+  padding-left: 3em;
+  
+}
+
+.card-container {
+  background-color: rgba(255, 255, 255, 0.137);
+  border-radius: 0.8em;
+  height: 770px;
+  width: 440px;
+}
+
+.page-2-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+.filter-container {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.deck-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.form-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 400px;
+}
+
+form {
+  display: flex;
+  max-width: 300px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+textarea {
+  height: 60px;
+  width: 300px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+
+.card {
+  transition: all 2s;
+}
+
+.card:active {
+  transform: rotate(-45deg) translateY(-500px);
+  opacity: 0;
+}
+
+.card {
+  background: url('/images/cardgame.png');
+  border-radius: 5px;
+  height: 506px;
+  margin-left: 50px;
+  margin-top: 4em;
+  width: 346px;
+  
+}
+
+.image-card {
+  display: block;
+  height: 194px;
+  text-align: center;
+  width: 346px;
+}
+
+.description-card {
+  align-items: center;
+  display: flex;
+  font-family: Fresca , sans-serif;
+  font-size: 0.8em;
+  height: 60px;
+  margin: auto;
+  margin-top: 0.7em;
+  text-align: justify;
+  width: 294px;
+}
+
+.name-card {
+  align-items: center;
+  display: flex;
+  font-family: Bungee , sans-serif;
+  letter-spacing: 0.06em;
+  height: 2.15em;
+  justify-content: space-between;
+  padding-top: 12px;
+  width: 320px;
+  
+}
+
+.name-card-text {
+  font-size: 1em;
+  margin-left: 1.2em;
+}
+
+.attrib-card {
+  align-items: center;
+  font-size: 0.8em;
+  margin: auto;
+  margin-top: 0.8em;
+  width: 300px;
+}
+
+.attrib {
+  align-items: center;
+  display: flex;
+  font-size: 0.9em;
+  height: 2.55em;
+  justify-content: space-between;
+  margin: auto;
+  width: 280px;
+}
+
+.input {
+  width: 300px;
+  margin-bottom: 0.5em;
+}
+
+.input-rare {
+  width: 308px;
+}
+
+.trump-check {
+  align-self: center;
+  display: flex;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  background-color: rgb(255, 255, 255);
+  font: inherit;
+  color: currentColor;
+  width: 1em;
+  height: 1em;
+  border-radius: 0.15em;
+  display: grid;
+  place-content: center;
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  background-color: #fa0800;
+  transform-origin: bottom left;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+
+input[type="checkbox"]:focus {
+  outline: max(0.8px, 0.10em) solid currentColor;
+  outline-offset: max(0.8px, 0.10em);
+  color: #4596f3;
+}
