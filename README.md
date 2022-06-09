@@ -12,11 +12,9 @@ Este projeto ainda está em desenvolvimento, estou implementando novas funcional
 
 ## :man_technologist: Habilidades Desenvolvidas
 
-* Usar a biblioteca Redux para gerenciamento de estado
 * Criar e reutilizar componentes
 * Reagir a interações do usuário manipulando estados e propriedades de acordo com eventos
 * Usar a biblioteca React Router para lidar com navegação entre páginas
-* Usar a biblioteca Redux para gerenciamento de estado
 
 ## :hammer_and_wrench: Ferramentas
 
