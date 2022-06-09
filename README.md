@@ -14,7 +14,6 @@ Este projeto ainda está em desenvolvimento, estou implementando novas funcional
 
 * Criar e reutilizar componentes
 * Reagir a interações do usuário manipulando estados e propriedades de acordo com eventos
-* Usar a biblioteca React Router para lidar com navegação entre páginas
 
 ## :hammer_and_wrench: Ferramentas
 
@@ -22,7 +21,6 @@ Este projeto ainda está em desenvolvimento, estou implementando novas funcional
 * CSS3
 * JavaScript ES6+
 * React.js
-* React Router v6
 * Photoshop CC
 * GitHub Pages
 
