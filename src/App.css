@@ -187,6 +187,10 @@ textarea {
   display: flex;
 }
 
+select {
+  height: 1.6em;
+}
+
 input[type="checkbox"] {
   appearance: none;
   background-color: rgb(255, 255, 255);
